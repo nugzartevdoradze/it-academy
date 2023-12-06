@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8eded;
+    color: #000;
+    font-weight: 700;
+}
+
+header {
+    background-color: #ffffff;
+    height: 130px;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+h1 {
+    font-weight: 900;
+    transform: scale(1.5);
+}
+
+li {
+    display: flex;
+    
+  }
+  
+  li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    transition: 0.3s;
+  }
+
+ li a:hover {
+    color: #000000;
+    transform: scale(1.5);
+  }
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    column-gap: 5vw;
+    position: absolute;
+    right: 600px;
+  }
+
+
+  img {
+    position: absolute;
+    right: 600px;
+    top: 400px;
+  }
+
+.img1 {
+    width: 120px;
+    height: 120px;
+}
+
+
+.card {
+    width: 490px;
+    height: 234px;
+    background: #feffff;
+    border: 1px solid white;
+    box-shadow: 10px 10px 64px 0px rgba(84, 228, 206, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(36, 235, 18, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(15, 226, 50, 0.75);
+    position: absolute;
+    left: 730px;
+    top: 300px;
+  }
+  
+  .form {
+    padding: 25px;
+  }
+  
+  .card_header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card svg {
+    color: rgb(21, 255, 0 , 189, 120);
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  
+  .form_heading {
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #000000;
+    position: absolute;
+    left: 170px;
+  }
+  
+  .field {
+    padding-bottom: 10px;
+  }
+  
+  .input {
+    border-radius: 5px;
+    background-color: #e9e9f7;
+    padding: 5px;
+    width: 100%;
+    color: #000;
+    border: 1px solid #dadaf7;
+  }
+  
+  .input:focus-visible {
+    outline: 1px solid rgb(44, 238, 5);
+  }
+  
+  .input::placeholder {
+    color: #000000;
+  }
+  
+  label {
+    color: #000000;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 4px;
+  }
+  
+  .button {
+    background-color: #4b4d4b;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: auto;
+    font-weight: 500;
+    color: white;
+    border: none;
+
+  }
+  
+  .button:hover {
+    background-color: #000000;
+  }
+
+
+  .io {
+    list-style: none;
+    display: flex; 
+    column-gap: 10vw;
+    position: absolute;
+    right: 900px;
+    top: 400px;
+  }
+
+
